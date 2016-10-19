@@ -7,10 +7,28 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  padding: 20px;
 }
 
 .main-container {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0px 5px rgba(0,0,0,.5);
+  margin: auto;
+}
+
+.main-header {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url('img/code-image.jpg');
+  background-size: cover;;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.chat-container {
   width: 75%;
   margin: 10px auto;
   background: rgba(255, 255, 255, 0.86);
@@ -18,8 +36,25 @@ body {
   border-radius: 10px;
 }
 
-.main-container h1 {
+.chat-container h1 h2 h3 {
   text-align: center;
+  color: #999999;
+  font-family: 'Raleway', sans-serif;
+}
+
+.chat-container h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.chat-container h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.chat-container h3 {
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .text-box {
